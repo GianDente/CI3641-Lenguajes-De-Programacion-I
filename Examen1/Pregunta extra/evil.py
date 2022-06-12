@@ -1,3 +1,4 @@
 from sympy import *
-n=int(input("n:"))
+import sys
+n=int(sys.argv[1])
 print(fibonacci(floor(log(bell(n+1),2))+1))
